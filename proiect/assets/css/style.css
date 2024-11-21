@@ -1,0 +1,72 @@
+.logo{
+    width: 100%;
+    max-width: 300px;
+    float: left;
+}
+#logo{
+    width: 150px;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    height: 30px;
+    padding: 60px 0px;
+    background-color: #172628;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px 25px;
+    list-style: none;
+}
+/*  
+nav ul li:hover, nav ul li .active{
+    background-color: #CAB77F;
+}
+*/
+nav ul li:hover, nav ul li a .active{
+    color: #CAB77F;
+    background-color: #CAB77F;
+}
+
+nav ul li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+/* END HEADER */
+
+#banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/download.jpeg);
+}
+
+#banner h1{
+    color: white;
+    /* text-align: center; */
+    position: absolute;
+    left: 45%;
+    top: 55%;
+}
+
+/* END BANNER */
+
+.container{
+    margin: 20px 0px;
+    padding: 10px 30px;
+}
+
+#foto{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+}
+
+#foto img.foto{
+    display: inline-block;
+    margin: 20px;
+}
