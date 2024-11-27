@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs 5 ap 2</title>
+    <style>
+        div img{
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+        @media screen AND (max-width: 360px){
+            h1{
+                color: rgb(72, 0, 255);
+            }
+            .desktop, .tableta, .laptop{
+                display: none;
+            }
+        }
+        @media screen AND (min-width: 361px) and (max-width:768px){
+            h1{
+                color: rgb(145, 255, 0);
+            }
+        }
+        @media screen AND (min-width: 769px) and (max-width:1240px){
+            h1{
+                color: rgb(255, 0, 174);
+            }
+        }
+        @media screen AND (min-width: 1241px){
+            h1{
+                color: gold;
+            }
+            .mobile, .tableta, .laptop{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="desktop">
+        <h1>Suntem pe Desktop</h1>
+        <img src="./images/bitcoin-2007769-1280_tvw6.1280.webp" alt="desktop">
+    </div>
+    <div class="laptop">
+        <h1>Suntem pe Laptop</h1>
+        <img src="./images/bitcoin-price-65k-usd.jpg" alt="laptop">
+    </div>
+    <div class="tableta">
+        <h1>Suntem pe Tableta</h1>
+        <img src="./images/Bitcoin.jpg" alt="tableta">
+    </div>
+    <div class="mobile">
+        <h1>Suntem pe Mobile</h1>
+        <img src="./images/btcrock22.webp" alt="mobile">
+    </div>
+</body>
+</html>
