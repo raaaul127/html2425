@@ -32,14 +32,15 @@ nav ul li{
     padding: 20px 25px;
     list-style: none;
 }
-/*  
-nav ul li:hover, nav ul li .active{
-    background-color: #CAB77F;
-}
-*/
-nav ul li:hover, nav ul li a .active{
+
+ nav ul li a:hover{
     color: #CAB77F;
-    background-color: #CAB77F;
+    text-shadow: 6px 6px 20px #CAB77F;
+} 
+
+nav ul li:hover, nav ul li a.active{
+    color: #CAB77F;
+    /* background-color: #CAB77F; */
 }
 
 nav ul li a{
@@ -83,3 +84,26 @@ nav ul li a{
     display: inline-block;
     margin: 20px;
 }
+
+/* Start Contact */
+
+#contact div{
+    margin: 25px 0;
+}
+
+#contact label{
+    width: 100px;
+    display: inline-block;
+}
+
+#contact select{
+    width: 200px;
+}
+
+#contact fieldset{
+    display:inline-block;
+    width: 400px;
+    border: 2px solid black;
+}
+
+/* Stop Contact */

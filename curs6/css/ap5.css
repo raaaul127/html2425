@@ -8,15 +8,15 @@
     justify-content: center; */
     background-color: white;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 600px;
-
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 27%;
     margin-right: 27%;
     max-width: 1500px;
     min-width: none;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.588);
 }
 
 #formular{
@@ -39,11 +39,11 @@
 }
 
 #button-label{
+    background-color: black;
     margin-top: 40px;
     margin-left: 100px;
     border-radius: 4px;
     border: 0.5px solid black ;
     display: inline-flex;
     height: 50px;
-
 }
