@@ -1,0 +1,35 @@
+#container{
+    width: 30%;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 8%;
+    padding: 2px;
+}
+#myform div{
+    padding: 1px;
+
+
+}
+
+#myform legend{
+    text-align: left;
+}
+
+#myform label{
+    display: inline-block;
+    text-align: left;
+    padding-right: 7px;
+}
+
+#myform input{
+    display: flex;
+    padding: 3px;
+    width: 150px;
+    /* float: right; */
+    margin-left: 5px;
+}
+
+#myform input.input2{ 
+    padding-right: 20%;
+}

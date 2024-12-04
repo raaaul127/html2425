@@ -1,0 +1,151 @@
+#demo   .bg-gray {
+    background-color: #fbfbfb;
+  }
+
+  .raw{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+  }
+  
+  #demo .section-title {
+    text-align: center;
+    margin-bottom: 57px;
+  }
+  #demo .section-title .subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #197beb;
+    line-height: 26px;
+    display: block;
+  }
+  #demo .section-title .title {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 18px;
+    font-weight: 700;
+  }
+  #demo .section-title p {
+    font-size: 16px;
+    color: #818181;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  
+  #demo .video-tutorial {
+    padding: 80px 0 0 0;
+  }
+  .video-tutorial .demo-wrapper {
+    margin-bottom: 40px;
+  }
+  .video-tutorial .demo-wrapper .title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+  }
+  
+  .price-plan-wrapper {
+    padding: 0 0 60px 0;
+  }
+  
+  .pricing-table-1 {
+    border: 3px solid #e5e3e3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 38px 0 40px;
+    transition: 0.4s ease-in;
+    margin-bottom: 30px;
+  }
+  .pricing-table-1:hover {
+    border-color: #bdba00;
+  }
+  .pricing-table-1 .price-header .title {
+    color: #282828;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  .pricing-table-1 .price-header .price {
+    font-size: 50px;
+    line-height: 60px;
+    color: #282828;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  .pricing-table-1 .price-header .price .dollar {
+    font-size: 33px;
+    line-height: 33px;
+    position: relative;
+    top: -12px;
+  }
+  .pricing-table-1 .price-header .price .month {
+    font-size: 22px;
+    line-height: 23px;
+  }
+  .pricing-table-1 .price-footer {
+    margin-top: 40px;
+  }
+  .pricing-table-1 .price-footer .order-btn {
+    display: inline-block;
+    width: 165px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid #bdba00;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    color: #282828;
+    transition: 0.3s ease-in;
+    font-weight: 600;
+  }
+  .pricing-table-1 .price-footer .order-btn i {
+    font-size: 13px;
+    padding-left: 2px;
+  }
+  .pricing-table-1 .price-footer .order-btn:hover {
+    background-color: #bdba00;
+    color: #fff;
+    border-color: #bdba00;
+  }
+  .pricing-table-1 .price-body ul {
+    margin: 0;
+    padding: 0;
+  }
+  .pricing-table-1 .price-body ul li {
+    list-style: none;
+    display: block;
+    color: #8997a7;
+    margin: 27px 0;
+  }
+  .pricing-table-1 .price-body ul li:first-child {
+    margin-top: 0;
+  }
+  .pricing-table-1 .price-body ul li:last-child {
+    margin-bottom: 0;
+  }
+  /* STOP PAKET PRICE SECTION */
+  /* Payment Start */
+  .col-50{
+  padding: 0 16px;
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
