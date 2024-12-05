@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            border: 5px solid blue;
+            height: 800px;
+        }
+
+        .pdiv{
+            border: 2px solid green;
+            padding: 3px;
+        }
+
+        .imgdiv{
+            border: 2px solid red;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns:70% 28%;
+            grid-gap: 15px;
+            padding: 10px;
+        }
+
+            .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section class="grid-container">
+        <div class="pdiv">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat expedita doloribus necessitatibus. Est sed maiores, enim obcaecati non adipisci nesciunt cum dolore consequuntur libero magni dignissimos similique beatae, expedita deserunt?</p>
+            <p>Id dolorum neque impedit hic, praesentium officia modi illo saepe porro tempore aspernatur assumenda blanditiis, asperiores culpa soluta, laborum sed? Laboriosam quibusdam officia vitae voluptatibus consequuntur culpa maiores repudiandae repellendus.</p>
+            <p>Atque nihil molestias perferendis, nesciunt distinctio suscipit iste cum est maiores placeat! Eveniet fugiat, deleniti itaque corporis vitae tempora expedita dolore reiciendis perferendis repellat ducimus neque quibusdam vel maiores error?</p>
+        </div>
+
+        <div class="imgdiv">
+            <img src="../curs5/images/bitcoin-2007769-1280_tvw6.1280.webp" alt="photo" title="free_photo">
+            <img src="../curs5/images/bitcoin-price-65k-usd.jpg" alt="photo" title="free_photo">
+            <img src="../curs5/images/Bitcoin.jpg" alt="photo" title="free_photo">
+        </div>
+    </section>
+</body>
+</html>
